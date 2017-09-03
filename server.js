@@ -5,7 +5,9 @@ const logger = require('./middlewares/logger')
 const db = require('./config/db')
 const app = express();
 
-app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
 app.use(bodyParser.json())
 app.use(logger);
 app.use(express.static('public'))
