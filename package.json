@@ -1,0 +1,25 @@
+{
+  "name": "expressjs-api-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for expressjs framework with mongoclient used for making basic CRUD operation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "expressjs",
+    "mongoclient",
+    "restapi"
+  ],
+  "author": "Priyam Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
